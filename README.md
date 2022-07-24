@@ -15,7 +15,7 @@
 
 ##### Note: Some tables may be too large to view in Github. To view, download the file and open on your desktop. 
 
-##### Before importing the file, I needed to create the table and specify the columns and datatypes. When attempting this through the Import Wizard, there were issues of not capturing all 17,000+ rows, so this step was done manually. The table is structured as such in preperation to normalize the data to 3NF form.   
+##### Before importing the file, I needed to create the table and specify the columns and datatypes. When attempting this through the Import Wizard, there were issues of not capturing all 17,000+ rows, so this step was done manually. The table is structured as such in preperation to normalize the data to 3NF form. It will essentially serve as the base table in which I would query from to create the actual tables that can be used for analysis.    
 ```sql
 CREATE TABLE anime_cleaned 
 (MAL_ID INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
@@ -101,9 +101,11 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES;
 ```
-##### Once the data was imported, I could then begin creating tables. 
+##### Once the data was imported, I could then begin creating tables. I started with the list of animes titles. 
 ```sql
 CREATE TABLE anime_list 
 (SELECT mal_id AS anime_id, title
 FROM anime_cleaned);
 ```
+
+#### 
