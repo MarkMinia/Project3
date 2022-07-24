@@ -137,4 +137,39 @@ SELECT mal_id AS anime_id, genres_11 FROM anime_cleaned WHERE genres_11 IS NOT N
 UNION ALL
 SELECT mal_id AS anime_id, genres_12 FROM anime_cleaned WHERE genres_12 IS NOT NULL
 ORDER BY anime_id);
+
+CREATE TEMPORARY TABLE anime_genre2 
+(SELECT genres_0 AS genre FROM anime_cleaned WHERE genres_0 IS NOT NULL
+UNION
+SELECT genres_1 FROM anime_cleaned WHERE genres_1 IS NOT NULL
+UNION
+SELECT genres_2 FROM anime_cleaned WHERE genres_2 IS NOT NULL
+UNION 
+SELECT genres_3 FROM anime_cleaned WHERE genres_3 IS NOT NULL
+UNION
+SELECT genres_4 FROM anime_cleaned WHERE genres_4 IS NOT NULL
+UNION
+SELECT genres_5 FROM anime_cleaned WHERE genres_5 IS NOT NULL
+UNION
+SELECT genres_6 FROM anime_cleaned WHERE genres_6 IS NOT NULL
+UNION
+SELECT genres_7 FROM anime_cleaned WHERE genres_7 IS NOT NULL
+UNION
+SELECT genres_8 FROM anime_cleaned WHERE genres_8 IS NOT NULL
+UNION
+SELECT genres_9 FROM anime_cleaned WHERE genres_9 IS NOT NULL
+UNION
+SELECT genres_10 FROM anime_cleaned WHERE genres_10 IS NOT NULL
+UNION
+SELECT genres_11 FROM anime_cleaned WHERE genres_11 IS NOT NULL
+UNION
+SELECT genres_12 FROM anime_cleaned WHERE genres_12 IS NOT NULL);
+ALTER TABLE anime_genre2
+ADD genre_id INT AUTO_INCREMENT NOT NULL PRIMARY KEY;
+
+CREATE TABLE anime_genre 
+(SELECT a.anime_id, b.genre_id, b.genre
+FROM anime_genre1 AS a
+LEFT JOIN anime_genre2 AS b
+ON a.genre = b.genre);
 ```
