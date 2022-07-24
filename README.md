@@ -108,7 +108,7 @@ CREATE TABLE anime_list
 FROM anime_cleaned);
 ```
 
-#### For the anime genres, I used UNION and UNION ALL. The
+##### For the anime genres, I used UNION and UNION ALL. The...
 ```sql
 CREATE TEMPORARY TABLE anime_genre1 
 (SELECT mal_id AS anime_id, genres_0 AS genre FROM anime_cleaned WHERE genres_0 IS NOT NULL
