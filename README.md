@@ -12,3 +12,5 @@
 - ##### Identify cells with lists seperated by commas and create individual columns for each value
 - ##### Change the dates to be the same format
 - ##### Change column labels to include underscores in preperation for SQL import
+
+##### Note: Some tables may be too large to view in Github. To view, download the file and open on your desktop. 
