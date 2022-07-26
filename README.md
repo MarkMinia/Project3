@@ -18,7 +18,7 @@
 ##### Before importing the file, I needed to create the table and specify the columns and datatypes. When attempting this through the Import Wizard, there were issues of not capturing all 17,000+ rows, so this step was done manually. The table is structured as such in preperation to normalize the data to 3NF form. It will essentially serve as the base table in which I would query from to create the actual tables that can be used for analysis.    
 ```sql
 CREATE TABLE anime_cleaned 
-(MAL_ID INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+(anime_id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 title VARCHAR(100),		
 score DEC(3, 2),	
 genres_0 VARCHAR(50),	
@@ -37,8 +37,7 @@ genres_12 VARCHAR(50),
 media_type VARCHAR(50),
 episodes INT,	
 aired VARCHAR(50),	
-premiered VARCHAR(50),	
-producers VARCHAR(50),	
+premiered VARCHAR(50),		
 producers_0	VARCHAR(50),
 producers_1	VARCHAR(50),
 producers_2	VARCHAR(50),
@@ -57,7 +56,8 @@ producers_14 VARCHAR(50),
 producers_15 VARCHAR(50),	
 producers_16 VARCHAR(50),	
 producers_17 VARCHAR(50),	
-producers_18 VARCHAR(50),	
+producers_18 VARCHAR(50),
+producers_19 VARCHAR(50),	
 licensors_0	VARCHAR(50),
 licensors_1	VARCHAR(50),
 licensors_2	VARCHAR(50),
@@ -104,8 +104,10 @@ IGNORE 1 LINES;
 ##### Once the data was imported, I could then begin creating tables. I started with the list of animes titles. 
 ```sql
 CREATE TABLE anime_list 
-(SELECT mal_id AS anime_id, title
+(SELECT anime_id, title
 FROM anime_cleaned);
+ALTER TABLE anime_list
+MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
 ```
 
 ##### For the anime genres, I used UNION and UNION ALL. The...
