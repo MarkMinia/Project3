@@ -5,7 +5,7 @@
 #### [Kaggle Link](https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020)
 
 ##### Anime shows and movies are an interest of mine and it is what lead me to choosing this dataset. The purpose of this project is to further explore SQL queries and Excel tools by creating my own database.
-##### The dataset downloaded from Kaggle contained over 17,562 rows, 35 columns, and it was rated a 10 on usability. When going through the CSV, I performed the following actions in Excel:
+##### The dataset downloaded from Kaggle contains 17,562 rows, 35 columns, and it was rated a 10 on usability. When going through the CSV, I performed the following actions in Excel:
 - ##### Remove duplicates
 - ##### Adjust id column series to be in order
 - ##### Replace 'Unknown' and blank cells with 'NULL' for text columns
@@ -120,7 +120,7 @@ ALTER TABLE average_score
 MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
 ```
 
-##### Next, the genres. I used UNION ALL and UNION to create two tables for genres, and I would recycle this query for upcoming columns. Most anime shows/movies fit under multiple generes and if I were to select the anime_id and the genres as it is, it would display each id in a row with 13 columns. What I want is two columns where each id and genre is it's own unique row.Basically, the idea behind UNION ALL was to unpivot the table. Even though there appears to be duplicates when looking at the anime_id column, it is still unique when the anime_id and genre are combined, which create composite keys. In the second table, I used UNION to capture each type of genre and added a genre_id to be the Primary Key.
+##### Next, the genres. I used UNION ALL and UNION to create two tables for genres, and I would recycle this query for upcoming tables. Most anime shows/movies fit under multiple generes and if I were to select the anime_id and the genres as it is, it would display each id in a row with 13 columns. What I want is two columns where each id and genre is it's own unique row.Basically, the idea behind UNION ALL was to unpivot the table. Even though there appears to be duplicates when looking at the anime_id column, it is still unique when the anime_id and genre are combined, which create composite keys. In the second table, I used UNION to capture each type of genre and added a genre_id to be the Primary Key.
 ```sql
 CREATE TABLE genre_list
 (SELECT anime_id, genres_0 AS genre FROM anime_cleaned WHERE genres_0 IS NOT NULL
