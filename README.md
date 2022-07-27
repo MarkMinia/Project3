@@ -4,7 +4,6 @@
 
 #### [Kaggle Link](https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020)
 
-
 ##### The dataset downloaded from Kaggle contained over 17,562 rows and 35 columns. When going through the dataset in Excel, I performed the following:
 - ##### Remove duplicates
 - ##### Adjust id column series to be in order
@@ -111,7 +110,95 @@ ALTER TABLE anime_list
 MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
 ```
 
-##### For the anime genres, I used UNION and UNION ALL. The...
+##### I continued to work my way through the columns in the order that it was on the CSV. 
 ```sql
+CREATE TABLE average_score 
+(SELECT anime_id, score
+FROM anime_cleaned);
+ALTER TABLE average_score 
+MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
+```
 
+#####
+```sql
+CREATE TABLE genre_list
+(SELECT anime_id, genres_0 AS genre FROM anime_cleaned WHERE genres_0 IS NOT NULL
+UNION ALL
+SELECT anime_id, genres_1 FROM anime_cleaned WHERE genres_1 IS NOT NULL
+UNION ALL
+SELECT anime_id, genres_2 FROM anime_cleaned WHERE genres_2 IS NOT NULL
+UNION ALL
+SELECT anime_id, genres_3 FROM anime_cleaned WHERE genres_3 IS NOT NULL
+UNION ALL
+SELECT anime_id, genres_4 FROM anime_cleaned WHERE genres_4 IS NOT NULL
+UNION ALL
+SELECT anime_id, genres_5 FROM anime_cleaned WHERE genres_5 IS NOT NULL
+UNION ALL
+SELECT anime_id, genres_6 FROM anime_cleaned WHERE genres_6 IS NOT NULL
+UNION ALL
+SELECT anime_id, genres_7 FROM anime_cleaned WHERE genres_7 IS NOT NULL
+UNION ALL
+SELECT anime_id, genres_8 FROM anime_cleaned WHERE genres_8 IS NOT NULL
+UNION ALL
+SELECT anime_id, genres_9 FROM anime_cleaned WHERE genres_9 IS NOT NULL
+UNION ALL
+SELECT anime_id, genres_10 FROM anime_cleaned WHERE genres_10 IS NOT NULL
+UNION ALL
+SELECT anime_id, genres_11 FROM anime_cleaned WHERE genres_11 IS NOT NULL
+UNION ALL
+SELECT anime_id, genres_12 FROM anime_cleaned WHERE genres_12 IS NOT NULL
+ORDER BY anime_id);
+
+CREATE TABLE genre_type
+(SELECT genres_0 AS genre FROM anime_cleaned WHERE genres_0 IS NOT NULL
+UNION
+SELECT genres_1 FROM anime_cleaned WHERE genres_1 IS NOT NULL
+UNION
+SELECT genres_2 FROM anime_cleaned WHERE genres_2 IS NOT NULL
+UNION 
+SELECT genres_3 FROM anime_cleaned WHERE genres_3 IS NOT NULL
+UNION
+SELECT genres_4 FROM anime_cleaned WHERE genres_4 IS NOT NULL
+UNION
+SELECT genres_5 FROM anime_cleaned WHERE genres_5 IS NOT NULL
+UNION
+SELECT genres_6 FROM anime_cleaned WHERE genres_6 IS NOT NULL
+UNION
+SELECT genres_7 FROM anime_cleaned WHERE genres_7 IS NOT NULL
+UNION
+SELECT genres_8 FROM anime_cleaned WHERE genres_8 IS NOT NULL
+UNION
+SELECT genres_9 FROM anime_cleaned WHERE genres_9 IS NOT NULL
+UNION
+SELECT genres_10 FROM anime_cleaned WHERE genres_10 IS NOT NULL
+UNION
+SELECT genres_11 FROM anime_cleaned WHERE genres_11 IS NOT NULL
+UNION
+SELECT genres_12 FROM anime_cleaned WHERE genres_12 IS NOT NULL);
+ALTER TABLE genre_type
+ADD genre_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST
+```
+
+#####
+```sql
+```
+
+#####
+```sql
+```
+
+#####
+```sql
+```
+
+#####
+```sql
+```
+
+#####
+```sql
+```
+
+#####
+```sql
 ```
