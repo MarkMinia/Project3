@@ -1,15 +1,16 @@
-# SQL Database Creation: Anime Recommendations 2020
+# SQL Database Creation: Anime Recommendations 
 #### [Original CSV](https://github.com/MarkMinia/Project3/blob/main/Dataset/anime.csv)
 #### [Cleaned CSV](https://github.com/MarkMinia/Project3/blob/main/Dataset/anime_cleaned.csv)
 
 #### [Kaggle Link](https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020)
 
-##### The dataset downloaded from Kaggle contained over 17,562 rows and 35 columns. When going through the dataset in Excel, I performed the following:
+##### Anime shows and movies are an interest of mine and it is what lead me to choosing this dataset. The purpose of this project is to further explore SQL queries and Excel tools by creating my own database.
+##### The dataset downloaded from Kaggle contained over 17,562 rows, 35 columns, and it was rated a 10 on usability. When going through the CSV, I performed the following actions in Excel:
 - ##### Remove duplicates
 - ##### Adjust id column series to be in order
 - ##### Replace 'Unknown' and blank cells with 'NULL' for text columns
 - ##### Replace blank cells with 0 for numeric columns
-- ##### Identify cells with lists seperated by commas and create individual columns for each value
+- ##### Trim spaces and seperate lists delimited by commas and create individual columns for each value
 - ##### Change the dates to be the same format
 - ##### Edit labels in preperation for SQL import
 
@@ -119,7 +120,7 @@ ALTER TABLE average_score
 MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
 ```
 
-#####
+##### Next, the genres. I used UNION ALL and UNION to create two tables for genres, and I would recycle this query for upcoming columns. Most anime shows/movies fit under multiple generes and if I were to select the anime_id and the genres as it is, it would display each id in a row with 9 columns. What I want is two columns where each id and genre is it's own unique row. The idea behind this was to use UNION ALL in order to unpivot the table. 
 ```sql
 CREATE TABLE genre_list
 (SELECT anime_id, genres_0 AS genre FROM anime_cleaned WHERE genres_0 IS NOT NULL
@@ -179,26 +180,238 @@ ALTER TABLE genre_type
 ADD genre_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST
 ```
 
-#####
+##### 
 ```sql
+CREATE TABLE media_list 
+(SELECT anime_id, media_type
+FROM anime_cleaned
+ORDER BY anime_id);
+ALTER TABLE media_list
+MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
+
+CREATE TABLE media_type 
+(SELECT media_type
+FROM anime_cleaned
+WHERE media_type IS NOT NULL
+GROUP BY media_type);
+ALTER TABLE media_type
+ADD media_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST;
 ```
 
 #####
 ```sql
+CREATE TABLE anime_airing 
+(SELECT anime_id, episodes, aired, premiered 
+FROM anime_cleaned);
+ALTER TABLE anime_airing
+MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
 ```
 
 #####
 ```sql
+CREATE TABLE producer_list
+(SELECT anime_id, producers_0 as producer FROM anime_cleaned WHERE  producers_0 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_1 FROM anime_cleaned WHERE  producers_1 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_2 FROM anime_cleaned WHERE  producers_2 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_3 FROM anime_cleaned WHERE  producers_3 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_4 FROM anime_cleaned WHERE  producers_4 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_5 FROM anime_cleaned WHERE producers_5 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_6 FROM anime_cleaned WHERE producers_6 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_7 FROM anime_cleaned WHERE producers_7 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_8 FROM anime_cleaned WHERE producers_8 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_9 FROM anime_cleaned WHERE producers_9 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_10 FROM anime_cleaned WHERE producers_10 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_11 FROM anime_cleaned WHERE producers_11 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_12 FROM anime_cleaned WHERE producers_12 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_13 FROM anime_cleaned WHERE producers_13 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_14 FROM anime_cleaned WHERE producers_14 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_15 FROM anime_cleaned WHERE producers_15 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_16 FROM anime_cleaned WHERE producers_16 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_17 FROM anime_cleaned WHERE producers_17 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_18 FROM anime_cleaned WHERE producers_18 IS NOT NULL
+UNION ALL
+SELECT anime_id, producers_19 FROM anime_cleaned WHERE producers_18 IS NOT NULL
+ORDER BY anime_id);
+
+CREATE TABLE producers
+(SELECT producers_0 as producer FROM anime_cleaned WHERE producers_0 IS NOT NULL
+UNION 
+SELECT producers_1 FROM anime_cleaned WHERE producers_1 IS NOT NULL
+UNION 
+SELECT producers_2 FROM anime_cleaned WHERE producers_2 IS NOT NULL
+UNION 
+SELECT producers_3 FROM anime_cleaned WHERE  producers_3 IS NOT NULL
+UNION 
+SELECT producers_4 FROM anime_cleaned WHERE producers_4 IS NOT NULL
+UNION 
+SELECT producers_5 FROM anime_cleaned WHERE producers_5 IS NOT NULL
+UNION 
+SELECT producers_6 FROM anime_cleaned WHERE producers_6 IS NOT NULL
+UNION 
+SELECT producers_7 FROM anime_cleaned WHERE producers_7 IS NOT NULL
+UNION 
+SELECT producers_8 FROM anime_cleaned WHERE producers_8 IS NOT NULL
+UNION 
+SELECT producers_9 FROM anime_cleaned WHERE producers_9 IS NOT NULL
+UNION 
+SELECT producers_10 FROM anime_cleaned WHERE producers_10 IS NOT NULL
+UNION ALL
+SELECT producers_11 FROM anime_cleaned WHERE producers_11 IS NOT NULL
+UNION 
+SELECT producers_12 FROM anime_cleaned WHERE producers_12 IS NOT NULL
+UNION 
+SELECT producers_13 FROM anime_cleaned WHERE producers_13 IS NOT NULL
+UNION 
+SELECT producers_14 FROM anime_cleaned WHERE producers_14 IS NOT NULL
+UNION 
+SELECT producers_15 FROM anime_cleaned WHERE producers_15 IS NOT NULL
+UNION 
+SELECT producers_16 FROM anime_cleaned WHERE producers_16 IS NOT NULL
+UNION 
+SELECT producers_17 FROM anime_cleaned WHERE producers_17 IS NOT NULL
+UNION 
+SELECT producers_18 FROM anime_cleaned WHERE producers_18 IS NOT NULL
+UNION 
+SELECT producers_19 FROM anime_cleaned WHERE producers_19 IS NOT NULL);
+ALTER TABLE producers
+ADD producer_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST
 ```
 
 #####
 ```sql
+CREATE TABLE licensor_list
+(SELECT anime_id, licensors_0 AS licensor FROM anime_cleaned WHERE licensors_0 IS NOT NULL
+UNION ALL
+SELECT anime_id, licensors_1 FROM anime_cleaned WHERE licensors_1 IS NOT NULL
+UNION ALL
+SELECT anime_id, licensors_2 FROM anime_cleaned WHERE licensors_2 IS NOT NULL
+UNION ALL
+SELECT anime_id, licensors_3 FROM anime_cleaned WHERE licensors_3 IS NOT NULL
+ORDER BY anime_id);
+
+CREATE TABLE licensors 
+(SELECT licensors_0 AS licensor FROM anime_cleaned WHERE licensors_0 IS NOT NULL
+UNION
+SELECT licensors_1 FROM anime_cleaned WHERE licensors_1 IS NOT NULL
+UNION
+SELECT licensors_2 FROM anime_cleaned WHERE licensors_2 IS NOT NULL
+UNION 
+SELECT licensors_3 FROM anime_cleaned WHERE licensors_3 IS NOT NULL);
+ALTER TABLE licensors
+ADD licensor_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST;
 ```
 
 #####
 ```sql
+CREATE TABLE studio_list 
+(SELECT anime_id, studios_0 AS studios FROM anime_cleaned WHERE studios_0 IS NOT NULL
+UNION ALL
+SELECT anime_id, studios_1 FROM anime_cleaned WHERE studios_1 IS NOT NULL
+UNION ALL
+SELECT anime_id, studios_2 FROM anime_cleaned WHERE studios_2 IS NOT NULL
+UNION ALL
+SELECT anime_id, studios_3 FROM anime_cleaned WHERE studios_3 IS NOT NULL
+UNION ALL
+SELECT anime_id, studios_4 FROM anime_cleaned WHERE studios_4 IS NOT NULL
+UNION ALL
+SELECT anime_id, studios_5 FROM anime_cleaned WHERE studios_5 IS NOT NULL
+UNION ALL
+SELECT anime_id, studios_6 FROM anime_cleaned WHERE studios_6 IS NOT NULL
+ORDER BY anime_id);
+
+CREATE TABLE studios 
+(SELECT studios_0 AS studios FROM anime_cleaned WHERE studios_0 IS NOT NULL
+UNION
+SELECT studios_1 FROM anime_cleaned WHERE studios_1 IS NOT NULL
+UNION
+SELECT studios_2 FROM anime_cleaned WHERE studios_2 IS NOT NULL
+UNION 
+SELECT studios_3 FROM anime_cleaned WHERE studios_3 IS NOT NULL
+UNION
+SELECT studios_4 FROM anime_cleaned WHERE studios_4 IS NOT NULL
+UNION
+SELECT studios_5 FROM anime_cleaned WHERE studios_5 IS NOT NULL
+UNION
+SELECT studios_6 FROM anime_cleaned WHERE studios_6 IS NOT NULL);
+ALTER TABLE studios
+ADD studio_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST;
 ```
 
 #####
 ```sql
+CREATE TABLE source_list
+(SELECT  anime_id, source
+FROM anime_cleaned
+ORDER BY anime_id);
+
+CREATE TABLE source_type
+(SELECT source
+FROM anime_cleaned
+WHERE source IS NOT NULL
+GROUP BY source);
+ALTER TABLE source_type
+ADD source_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST;
+```
+
+#####
+```sql
+CREATE TABLE duration 
+(SELECT anime_id, duration
+FROM anime_cleaned);
+ALTER TABLE duration
+MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
+```
+
+#####
+```sql
+CREATE TABLE rating_list
+(SELECT anime_id, rating, rating_description
+FROM anime_cleaned
+ORDER BY anime_id);
+
+CREATE TABLE rating_type
+(SELECT rating, rating_description
+FROM anime_cleaned
+WHERE rating IS NOT NULL
+GROUP BY rating);
+ALTER TABLE rating_type
+ADD rating_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST;
+```
+
+#####
+```sql
+CREATE TABLE viewership 
+(SELECT anime_id, ranked, popularity, members, favorites,
+watching, completed, on_hold, dropped, plan_to_watch
+FROM anime_cleaned);
+ALTER TABLE viewership
+MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
+```
+
+#####
+```sql
+CREATE TABLE scoring
+(SELECT anime_id, score_10, score_9, score_8,
+score_7, score_6, score_5, score_4, score_3, score_2, score_1
+FROM anime_cleaned);
+ALTER TABLE scoring
+MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
 ```
