@@ -120,7 +120,7 @@ ALTER TABLE average_score
 MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
 ```
 
-##### Next, the genres. I used UNION ALL and UNION to create two tables for genres, and I would recycle this query for upcoming columns. Most anime shows/movies fit under multiple generes and if I were to select the anime_id and the genres as it is, it would display each id in a row with 9 columns. What I want is two columns where each id and genre is it's own unique row. The idea behind this was to use UNION ALL in order to unpivot the table. 
+##### Next, the genres. I used UNION ALL and UNION to create two tables for genres, and I would recycle this query for upcoming columns. Most anime shows/movies fit under multiple generes and if I were to select the anime_id and the genres as it is, it would display each id in a row with nine columns. What I want is two columns where each id and genre is it's own unique row. The idea behind this was to use UNION ALL in order to unpivot the table. In the second table, I used UNION to capture each type of genre and added a genre_id to be the Primary Key.
 ```sql
 CREATE TABLE genre_list
 (SELECT anime_id, genres_0 AS genre FROM anime_cleaned WHERE genres_0 IS NOT NULL
