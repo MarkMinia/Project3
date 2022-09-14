@@ -12,6 +12,7 @@
 - ##### Replace blank cells with 0 for numeric columns
 - ##### Trim spaces and create individual columns for values delimited by commas
 - ##### Change the dates to be the same format
+- ##### change duration of episodes/movies to show total minutes
 - ##### Edit labels in preperation for SQL import
 
 ##### Note: Some tables may be too large to view in Github. To view, download the file and open on your desktop. 
@@ -71,7 +72,7 @@ studios_4 VARCHAR(50),
 studios_5 VARCHAR(50),	
 studios_6 VARCHAR(50),	
 source VARCHAR(50),
-duration VARCHAR(50),	
+total_min_per_showing INT,	
 rating VARCHAR(50),	
 rating_description VARCHAR(50),	
 ranked INT,
@@ -374,7 +375,7 @@ ADD source_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST;
 #####
 ```sql
 CREATE TABLE duration 
-(SELECT anime_id, duration
+(SELECT anime_id, total_min_per_showing
 FROM anime_cleaned);
 ALTER TABLE duration
 MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
