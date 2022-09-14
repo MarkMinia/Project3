@@ -12,7 +12,7 @@
 - ##### Replace blank cells with 0 for numeric columns
 - ##### Trim spaces and create individual columns for values delimited by commas
 - ##### Change the dates to be the same format
-- ##### change duration of episodes/movies to show total minutes
+- ##### Change duration of episodes/movies to show total minutes
 - ##### Edit labels in preperation for SQL import
 
 ##### Note: Some tables may be too large to view in Github. To view, download the file and open on your desktop. 
