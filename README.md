@@ -120,7 +120,7 @@ ALTER TABLE average_score
 MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
 ```
 
-##### Next, the genres. I used UNION ALL and UNION to create two tables for genres; I would recycle this query for upcoming tables. Most anime shows/movies fit under multiple generes and if I were to select the anime_id and the genres as it is, it would display each id in a row with 13 columns. What I want is two columns where each id and genre is it's own unique row.Basically, the idea behind UNION ALL was to unpivot the table. Even though there appears to be duplicates when looking at the anime_id column, it is still unique when the anime_id and genre are combined, which create composite keys. In the second table, I used UNION to capture each type of genre and added a genre_id to be the Primary Key.
+##### Next, the genres. I used UNION ALL and UNION to create two tables for genres; I would recycle this query for upcoming tables. Most anime shows/movies fit under multiple generes and if I were to select the anime_id and the genres as it is, it would display each id in a row with 13 columns. What I want is two columns where each id and genre is it's own unique row. Basically, the idea behind UNION ALL was to unpivot the table. Even though there appears to be duplicates when looking at the anime_id column, it is still unique when the anime_id and genre are combined, which create composite keys. In the second table, I used UNION to capture each type of genre and added a genre_id to be the Primary Key.
 ```sql
 CREATE TABLE genre_list
 (SELECT anime_id, genres_0 AS genre FROM anime_cleaned WHERE genres_0 IS NOT NULL
@@ -180,7 +180,7 @@ ALTER TABLE genre_type
 ADD genre_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST
 ```
 
-##### Here, I created two tables, again. One has been created for each unique media type and another table that displays the anime_id with the corresponding media type.
+##### Here, I created two tables, again. One has been created for each unique media type and another table that displays the anime_id with the corresponding media type. Rather then using Join or Union, I selected the specific columns I needed. I modified anime_id to the primary key for the first table and added media_id to be the primary key for the second table.
 ```sql
 CREATE TABLE media_list 
 (SELECT anime_id, media_type
@@ -198,7 +198,7 @@ ALTER TABLE media_type
 ADD media_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST;
 ```
 
-##### 
+##### I applied the same concept here as the media tables.
 ```sql
 CREATE TABLE anime_airing 
 (SELECT anime_id, episodes, aired, premiered 
@@ -295,7 +295,7 @@ ALTER TABLE producers
 ADD producer_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST
 ```
 
-#####
+##### I took the same concept from earlier when dealing with the generes and applied it to the list of licensors.
 ```sql
 CREATE TABLE licensor_list
 (SELECT anime_id, licensors_0 AS licensor FROM anime_cleaned WHERE licensors_0 IS NOT NULL
@@ -319,7 +319,7 @@ ALTER TABLE licensors
 ADD licensor_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST;
 ```
 
-#####
+##### I took the same concept from earlier when dealing with the generes and applied it to the list of studios.
 ```sql
 CREATE TABLE studio_list 
 (SELECT anime_id, studios_0 AS studios FROM anime_cleaned WHERE studios_0 IS NOT NULL
@@ -355,7 +355,7 @@ ALTER TABLE studios
 ADD studio_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL FIRST;
 ```
 
-#####
+##### Like the media tables, I applied the same concept for all remaining tables below:
 ```sql
 CREATE TABLE source_list
 (SELECT  anime_id, source
