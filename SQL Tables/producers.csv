@@ -1,0 +1,1307 @@
+producer_id,producer
+1,FILMONY
+2,Enterbrain
+3,BIGFACE
+4,"Avex Pictures"
+5,Bouncy
+6,"Natural High"
+7,"Bandai Visual"
+8,"Front Line"
+9,Sunrise
+10,"Academy Productions"
+11,"Bandai Namco Entertainment"
+12,"Victor Entertainment"
+13,"Seven Stone Entertainment"
+14,Yaoqi
+15,"TV Tokyo"
+16,"Yamato Works"
+17,"Nagoya Broadcasting Network"
+18,CUCURI
+19,"Vega Entertainment"
+20,"Audio Graphics Institute"
+21,"Union Cho"
+22,Genco
+23,Alchemist
+24,T-JOY
+25,"Tencent Animation & Comics"
+26,"OB Planning"
+27,"TV Osaka"
+28,"Evil Line Records"
+29,Ongaq
+30,VAP
+31,"Grouper Productions"
+32,"Sotsu Music Publishing"
+33,"Trash Studio"
+34,"Fuji TV"
+35,"Studio Mirai"
+36,"Magic Bus"
+37,"Namu Animation"
+38,Plum
+39,"Production I.G"
+40,"Alchemy Bros."
+41,"Milky Cartoon"
+42,GDH
+43,comico
+44,"Twin Planet"
+45,"Group TAC"
+46,TMS-Kyokuchi
+47,"ibis Capital Partners"
+48,Marvelous
+49,"Kokusai Eigasha"
+50,S-TAR7
+51,Movic
+52,"Tencent Games"
+53,Aniplex
+54,BOOTLEG
+55,"Polygon Magic"
+56,Shirogumi
+57,COLOPL
+58,"Media Castle"
+59,"Trinity Sound"
+60,"Hokkaido Cultural Broadcasting"
+61,"AIR AGENCY"
+62,"Studio Binzo"
+63,"Yomiuri Advertising"
+64,Orange
+65,"North Stars Pictures"
+66,"Mainichi Broadcasting System"
+67,"Heewon Entertainment"
+68,"B.CMAY PICTURES"
+69,"TV Tokyo Music"
+70,Fanworks
+71,1theK
+72,C2C
+73,"Sony Pictures Entertainment"
+74,"RCC Chugoku Broadcasting"
+75,"Shizuoka Broadcasting System"
+76,Youmex
+77,"GEN Productions"
+78,"Alpha Group Co. Ltd."
+79,"Asmik Ace"
+80,TBS
+81,Cygames
+82,"Wolf Smoke Studio"
+83,"Knack Productions"
+84,Lantis
+85,Bridge
+86,NHK-BS2
+87,"Kadokawa Shoten"
+88,"Comic Animation"
+89,"Mellow Head"
+90,"AIC Spirits"
+91,"Abe Shuuji Jimusho"
+92,"Tatsunoko Production"
+93,"Osaka University of Arts"
+94,"Toshiba EMI"
+95,"Starchild Records"
+96,EDGE
+97,"Yumeta Company"
+98,"Imagica West"
+99,Xebec
+100,Echoes
+101,"Rialto Entertainment"
+102,Atlus
+103,"Penta Show Studios"
+104,Sotsu
+105,"Liberty Animation Studio"
+106,HeART-BIT
+107,Sega
+108,"Atelier Musa"
+109,"Hobi Animation"
+110,APDREAM
+111,RAMS
+112,"Jinnan Studio"
+113,"TV Asahi"
+114,Delightworks
+115,Oddjob
+116,"Pony Canyon"
+117,"Anime R"
+118,studioGONG
+119,Animax
+120,"Datam Polystar"
+121,Blooms
+122,"Nihon Ad Systems"
+123,"Filmlink International"
+124,TUBA
+125,NHK
+126,Graphinica
+127,Imagin
+128,"Telecom Animation Film"
+129,m.o.e.
+130,"Naver Webtoons"
+131,KOO-KI
+132,"ASCII Media Works"
+133,"Pioneer LDC"
+134,Chippai
+135,"Creatures Inc."
+136,"Trinet Entertainment"
+137,"Tencent Penguin Pictures"
+138,"Flat Studio"
+139,"ABC Animation"
+140,"Takara Tomy A.R.T.S"
+141,RoiVisual
+142,"Kanon Sound"
+143,PansonWorks
+144,"Media Factory"
+145,"Fuji&gumi Games"
+146,"Yamaha Music Communications"
+147,"Nihikime no Dozeu"
+148,Bitgang
+149,"Studio Fantasia"
+150,FABTONE
+151,"Haoliners Animation League"
+152,"Sunny Side Up"
+153,"Geneon Universal Entertainment"
+154,"D.N. Dream Partners"
+155,Frencel
+156,Nelvana
+157,"Toei Video"
+158,"JTB Entertainment"
+159,"Aoi Studio"
+160,"Big Bang"
+161,"Dongwoo A&E"
+162,AIC
+163,Hakuhodo
+164,Level-5
+165,Imagi
+166,"Sogo Vision"
+167,Being
+168,KBS
+169,"Rondo Robe"
+170,"SPO Entertainment"
+171,"Ashi Production"
+172,Broccoli
+173,"Sony Creative Products"
+174,T-Rex
+175,"Avex Entertainment"
+176,"SB Creative"
+177,EBS
+178,"Asahi Production"
+179,PSG
+180,"Tokuma Shoten"
+181,Telescreen
+182,"Rambling Records"
+183,blackflag
+184,"Asatsu DK"
+185,"Light Chaser Animation Studios"
+186,"TOHO animation"
+187,"Yomiko Advertising"
+188,Apollon
+189,"Coolism Productions"
+190,"Five Ways"
+191,"Studio Izena"
+192,Remic
+193,"Audio Planning U"
+194,Cranberry
+195,Discovery
+196,"Shounen Gahousha"
+197,Amuse
+198,"Tokuma Japan"
+199,"WAO World"
+200,"Eye Move"
+201,"Universal Music Japan"
+202,Monomusik
+203,Netflix
+204,"Lastrum Music"
+205,Zexcs
+206,"Anime Beans"
+207,Bishop
+208,Shelty
+209,Sanrio
+210,Emon
+211,"Design Factory"
+212,"A-1 Pictures"
+213,"Dongyang Animation"
+214,"Toho Visual Entertainment"
+215,"Urban Product"
+216,"Crunchyroll SC Anime Fund"
+217,"Happinet Pictures"
+218,"Kadokawa Haruki Corporation"
+219,"TC Entertainment"
+220,Toho
+221,"Trilogy Future Studio"
+222,"Lemon Heart"
+223,"Craftar Studios"
+224,"Sky Perfect Communications"
+225,Shueisha
+226,"Visual Art's"
+227,"AC Create"
+228,"Amusement Media Academy"
+229,"Lucky Paradise"
+230,"Green Bunny"
+231,KENMedia
+232,"Miracle Bus"
+233,"Gigno Systems"
+234,"Shogakukan-Shueisha Productions"
+235,"Media Bank"
+236,"Triangle Staff"
+237,Arcturus
+238,5pb.
+239,"Pink Pineapple"
+240,"Visual 80"
+241,"P.A. Works"
+242,LÂ²Studio
+243,Soeishinsha
+244,Gakken
+245,"Korean Academy of Film Arts"
+246,Nexon
+247,"NuTech Digital"
+248,"Studio Tron"
+249,eigoMANGA
+250,"Studio Pierrot"
+251,Orix
+252,Cloud22
+253,"Agent 21"
+254,"Coastline Animation Studio"
+255,"Studio Curtain"
+256,"Meiji Seika"
+257,"Toshiba Entertainment"
+258,"Chukong Technologies"
+259,"Kino Production"
+260,"Beijing Rocen Digital"
+261,"Yomiuri Telecasting"
+262,"Muse International"
+263,Daiichikosho
+264,Next
+265,KSS
+266,"Pony Canyon Enterprise"
+267,Glams
+268,"Tohokushinsha Film Corporation"
+269,"Wawayu Animation"
+270,"Hal Film Maker"
+271,Glovision
+272,"Yellow Film"
+273,"Raku High Student Council"
+274,"Creators in Pack"
+275,gimik
+276,Gainax
+277,Sanyo
+278,Mobcast
+279,"Tokyo Movie Shinsha"
+280,"Quick Corporation"
+281,"Enoki Films"
+282,"Sony PCL"
+283,Free-Will
+284,"Studio Signal"
+285,"Tokai Television"
+286,d-rights
+287,"CoMix Wave Films"
+288,Fields
+289,Imagica
+290,"Avaco Creative Studios"
+291,Seikaisha
+292,Shochiku
+293,"Nintendo of America"
+294,PPP
+295,"Himajin Planning"
+296,"Dynamic Planning"
+297,"MÃ¶bius Tone"
+298,Dentsu
+299,Pixy
+300,"Right Gauge"
+301,"Polygram Japan"
+302,Oz
+303,"Peter Pan Creation"
+304,WOWOW
+305,"Aniplex of America"
+306,"Public & Basic"
+307,"Trans Arts"
+308,"Pazzy Entertainment"
+309,"Hakoniwa Academy Student Council"
+310,F.M.F
+311,"Studio Flag"
+312,"animate Film"
+313,"YHKT Entertainment"
+314,Annapuru
+315,"Asahi Broadcasting"
+316,iQIYI
+317,BS-TBS
+318,PoRO
+319,"Blue Eyes"
+320,"Nippon Television Network"
+321,Ripromo
+322,"DMM.com Labo"
+323,Rakuonsha
+324,"Audio Highs"
+325,"KJJ Animation"
+326,"E&G Films"
+327,"Creative Bridge"
+328,BeSTACK
+329,"Picture Magic"
+330,"Sentai Filmworks"
+331,TYO
+332,Active
+333,"Anime Consortium Japan"
+334,"Half H.P Studio"
+335,"Obtain Future"
+336,"JP Room"
+337,"Kansai Telecasting"
+338,"Adult Source Media"
+339,"Tokuma Japan Communications"
+340,Showgate
+341,"Nihon Falcom"
+342,"Shizuoka Asahi Television"
+343,"SME Visual Works"
+344,P.I.C.S.
+345,"I Will"
+346,"Hirameki International"
+347,"Studio Tulip"
+348,"Fujiko F. Fujio Pro"
+349,"Idea Factory"
+350,Shinyusha
+351,"SEDIC International"
+352,"Hiroshima Television"
+353,"Medicos Entertainment"
+354,Aubec
+355,"Frontier Works"
+356,"Techno Sound"
+357,ANIK
+358,"Studio Nue"
+359,Greenwood
+360,"Wako Productions"
+361,"Square Enix"
+362,"Nippon Television Music"
+363,"81 Produce"
+364,"NTT Docomo"
+365,bilibili
+366,"Shochiku Music Publishing"
+367,dugout
+368,"Rex Entertainment"
+369,Age
+370,"Kamio Japan"
+371,Lawson
+372,"Audio Tanaka"
+373,Schoolzone
+374,Cromea
+375,Gen'ei
+376,"Kyoto Animation"
+377,"Quatre Stella"
+378,Nitroplus
+379,Bungeishunjuu
+380,CyberConnect2
+381,"Kadokawa Games"
+382,"Dream Force"
+383,"Duckbill Entertainment"
+384,Konami
+385,Sonilude
+386,"Tsuburaya Productions"
+387,OLE-M
+388,Donuts
+389,"Fujipacific Music"
+390,"Soft on Demand"
+391,"Tonko House"
+392,"Kinoshita Management"
+393,"SKY Perfect Well Think"
+394,DMM.com
+395,"TMS Music"
+396,"SKY PerfecTV!"
+397,"Smiral Animation"
+398,Network
+399,Grasshoppa!
+400,"Just Production"
+401,"Music Ray'n"
+402,"Japan Home Video"
+403,Kadokawa
+404,"Ai ga areba Daijobu"
+405,"Da Huoniao Donghua"
+406,"Studio Hibari"
+407,"Studio Matrix"
+408,"Think Corporation"
+409,"Motion Magic"
+410,"Top Marshal"
+411,"Studio Jack"
+412,JapanAnime
+413,"Kujou-kun no Bonnou wo Mimamoru-kai"
+414,"Global Solutions"
+415,"Soft Garage"
+416,"Kaeruotoko Shokai"
+417,"Tokyo Theatres"
+418,"Mirai Records"
+419,"Synergy Japan"
+420,Dwango
+421,DJI
+422,RME
+423,Koei
+424,Libre
+425,Procidis
+426,"High Kick Entertainment"
+427,"Byakuya Shobo"
+428,f4samurai
+429,PRA
+430,"Mattel Creations"
+431,"Suzuki Mirano"
+432,J.C.Staff
+433,COMICSMART
+434,"Four Some"
+435,Topcraft
+436,"Friendly Land"
+437,"Tin House"
+438,Soyuzmultfilm
+439,Bandai
+440,Rankin/Bass
+441,"JR East Marketing & Communications"
+442,"Culture Publishers"
+443,"Zelico Film"
+444,Notes
+445,"JY Animation"
+446,San-X
+447,"Panasonic Digital Contents"
+448,Meruhensha
+449,"Good Smile Film"
+450,Madhouse
+451,"Tele-Cartoon Japan"
+452,"Tencent Japan"
+453,"Three Fat Samurai"
+454,"MS Pictures"
+455,CBC
+456,"Hexagon Pictures"
+457,"ACiD FiLM"
+458,"Project Team Eikyuu Kikan"
+459,"Studio Take Off"
+460,"Universal Studios"
+461,Radix
+462,"Kojiro Shishido Animation Works"
+463,Takeshobo
+464,"Cyclone Graphics"
+465,Kodansha
+466,"flying DOG"
+467,"Kitty Films"
+468,"Life Work"
+469,LIDENFILMS
+470,"DAX Production"
+471,"Itasca Studio"
+472,"Studio Kyuuma"
+473,"Fuji Video"
+474,AQUAPLUS
+475,Wicky.Records
+476,"AMG MUSIC"
+477,"TMS Entertainment"
+478,"Dream Shift"
+479,"Yoon's Color"
+480,"Studio Comet"
+481,"pH Studio"
+482,On-Lead
+483,Jam
+484,"Crown Records"
+485,Memory-Tech
+486,"NTT Plala"
+487,"Walt Disney Studios"
+488,"Stray Cats"
+489,Hulu
+490,Langmaor
+491,Armor
+492,FIREBUG
+493,Harappa
+494,Daiei
+495,"FUJIYAMA PROJECT JAPAN"
+496,"Fuji Creative"
+497,"Studio Junio"
+498,EMI
+499,"W-Toon Studio"
+500,"The National Film Center Japan"
+501,Ajia-Do
+502,"Yili Animation Studio"
+503,"Studio Wombat"
+504,"Milky Animation Label"
+505,"SEK Studios"
+506,Digiturbo
+507,"Phoenix Entertainment"
+508,"Flex Comix"
+509,SynergySP
+510,"Robot Communications"
+511,"Ripple Film"
+512,"Anime Friend"
+513,Hakusensha
+514,Amino
+515,"Nippon Cultural Broadcasting"
+516,Echo
+517,"Studio Mausu"
+518,Samsung
+519,"Triple X"
+520,"Maru Production"
+521,BS-i
+522,"Media Rings"
+523,"Studio Kikan"
+524,"Cookie Jar Entertainment"
+525,Directions
+526,"DR Movie"
+527,"Kids Station"
+528,"GoGo Visual Planning"
+529,"Wonder Kids"
+530,"XFLAG Pictures"
+531,"Nakamura Production"
+532,"Asahi Shimbun"
+533,Shaft
+534,"Omnibus Japan"
+535,"Picante Circus"
+536,Watermark
+537,"Tokyo Kids"
+538,"Minami Machi Bugyousho"
+539,"Yomiuri TV Enterprise"
+540,SUBARU
+541,"Digital Works"
+542,HOTZIPANG
+543,"Bulls Eye"
+544,"Nippon Ichi Software"
+545,"AZ Creative"
+546,"Dwango Music Entertainment"
+547,"Sound Team Don Juan"
+548,"Beyond C."
+549,"P-Vine Records"
+550,Volks
+551,Hasbro
+552,"Hipland Music Corporation"
+553,Viki
+554,"I was a Ballerina"
+555,"Jade Animation"
+556,"Aoni Production"
+557,"JM Animation"
+558,RX-RECORDS
+559,Capcom
+560,"Hot Bear"
+561,"Daiichi Shokai"
+562,T.P.O
+563,"Studio Rikka"
+564,TIS
+565,"Magic Capsule"
+566,"Fairy Dust"
+567,3xCube
+568,"Marine Entertainment"
+569,MediaNet
+570,"Tsukuru no Mori"
+571,"NEC Avenue"
+572,"Kadokawa Pictures Japan"
+573,"Forecast Communications"
+574,"Studio Ghibli"
+575,Decovocal
+576,"Colored-Pencil Animation Design"
+577,"FOREST Hunting One"
+578,Valkyria
+579,"Lucent Pictures Entertainment"
+580,"Comic Umenohone"
+581,Daume
+582,CBS
+583,"Shanghai Jump Network Technology"
+584,Skouras
+585,Trigger
+586,"Shanghai Foch Film Culture Investment"
+587,"Puzzle Animation Studio Limited"
+588,"DMM Music"
+589,ensky
+590,Ichijinsha
+591,Animatic
+592,"Studio Zain"
+593,"Sankyo Planning"
+594,Houbunsha
+595,"Studio GOONEYS"
+596,"Studio 9 MAiami"
+597,Yuhodo
+598,Shinkuukan
+599,"My Theater D.D."
+600,"Bee Media"
+601,NichiNare
+602,Artland
+603,Imagine
+604,"Hakuhodo DY Music & Pictures"
+605,"Nishinippon Broadcasting"
+606,CherryLips
+607,"Kawade Shobo Shinsha"
+608,Links
+609,"Souten no Ken"
+610,Gallop
+611,"Sunrise Music Publishing"
+612,Yumearu
+613,"Animation Do"
+614,"World Cosplay Summit"
+615,Sanctuary
+616,"Jidaigeki Channel"
+617,"Chaos Project"
+618,Nikkatsu
+619,"Heart Company"
+620,"Shanghai Tiantan Culture & Media"
+621,SoftX
+622,"Studio A-CAT"
+623,HoriPro
+624,"Straight Edge"
+625,"Terada Mokei"
+626,Darts
+627,"Gentosha Comics"
+628,"Universal Entertainment"
+629,"D & D Pictures"
+630,KlockWorx
+631,"Miraicha Records"
+632,"Space Neko Company"
+633,Yamasa
+634,"Ki/oon Music"
+635,Banpresto
+636,"Kakao Japan"
+637,"Gakken Eigakyoku"
+638,"Tochigi TV"
+639,"Sav! The World Productions"
+640,"Cosmic Ray"
+641,"Micro Magazine Publishing"
+642,"Walkers Company"
+643,Horannabi
+644,XFLAG
+645,"FanFan Inc."
+646,Animaruya
+647,"Dokidoki Factory"
+648,"Nihon Eizo"
+649,A-Craft
+650,"Studio Pastoral"
+651,Legs
+652,"Shogakukan Music & Digital Entertainment"
+653,"China Film Animation"
+654,"Tamura Shigeru Studio"
+655,"Mime Corporation"
+656,Indeprox
+657,Shodensha
+658,"Toei Animation"
+659,"Bandai Namco Online"
+660,"Sakura Production"
+661,"DMM pictures"
+662,"Teichiku Entertainment"
+663,"BS Asahi"
+664,"Kadokawa Animation"
+665,"Creative Power Entertaining"
+666,Actas
+667,Akatsuki
+668,Mitsubishi
+669,"Takahashi Studio"
+670,"G&G Entertainment"
+671,"Success Corp."
+672,"Nippon Shuppan Hanbai (Nippan) K.K."
+673,Felicity
+674,"International Digital Artist"
+675,Namisokan
+676,"Boyan Pictures"
+677,"GODxDOG Production"
+678,"Happy Elements"
+679,"Myrica Music"
+680,"Egg Firm"
+681,Shogakukan
+682,"Tokyu Recreation"
+683,Infinite
+684,Primastea
+685,MAZRI
+686,"Future Planet"
+687,"Studio Nem"
+688,"TAKI Corporation"
+689,"Company AZA"
+690,SamBakZa
+691,AT-X
+692,OCC
+693,"Kuri Jikken Manga Kobo"
+694,"Speed Inc."
+695,"Kitty Media"
+696,"Ruo Hong Culture"
+697,Majin
+698,"BMG Japan"
+699,THINKR
+700,"DiC Entertainment"
+701,"Include P.D."
+702,"Nippon Columbia"
+703,BookLive
+704,"Typhoon Graphics"
+705,"Visual Vision"
+706,"Sugar Boy"
+707,Xing
+708,"Sunwoo Entertainment"
+709,"Toppan Printing"
+710,"Panda Factory"
+711,"Science SARU"
+712,"Cotton Doll"
+713,"Sony Music Entertainment"
+714,"Hokkaido Azmacy"
+715,Artmic
+716,"Yahoo! Japan"
+717,"eBooK Initiative Japan"
+718,Animac
+719,Takara
+720,"RAB Aomori Broadcasting"
+721,"Chukyo TV Broadcasting"
+722,"Yamamura Animation"
+723,"Geijutsu Eigasha"
+724,"Japan Sleeve"
+725,"Polygon Pictures"
+726,D3
+727,Nintendo
+728,"Shochiku Media Division"
+729,"Children's Playground Entertainment"
+730,Silkyâ€™s
+731,"Hisashishi Videos"
+732,"China Literature Limited"
+733,"Dai Nippon Printing"
+734,"Bee Train"
+735,"Walt Disney Japan"
+736,"Usagi Ou"
+737,CIC
+738,"Lawson Entertainment"
+739,"VIZ Media"
+740,M.S.C
+741,"Bandai Entertainment"
+742,"Bandai Namco Rights Marketing"
+743,"Tezuka Productions"
+744,Lute
+745,"Stardust Promotion"
+746,"Ginga Ya"
+747,"Docomo Anime Store"
+748,Kotobukiya
+749,animate
+750,"Akita Shoten"
+751,"China Animation Characters"
+752,Satelight
+753,"Mushi Production"
+754,TRUSS
+755,"NADA Holdings"
+756,"BEAM Entertainment"
+757,"Anon Pictures"
+758,Sumitomo
+759,"Shin-Ei Animation"
+760,APPP
+761,"Live Viewing Japan"
+762,Zyc
+763,"Big West"
+764,"Radio Osaka"
+765,"Delfi Sound"
+766,"KAGAYA Studio"
+767,ONEMUSIC
+768,Y.O.U.C
+769,"Studio Core"
+770,Adores
+771,GANSIS
+772,"Kawamoto Productions"
+773,"Spacey Music Entertainment"
+774,GAGA
+775,"Iyasakadou Film"
+776,KLab
+777,Comstock
+778,Oxybot
+779,FBC
+780,"Chungeorahm Film"
+781,"Marvel Entertainment"
+782,"The Village of Marchen"
+783,Shufunotomo
+784,"Exit Tunes"
+785,"Shun Produce"
+786,Gonzo
+787,"HoriPro International"
+788,"NHK Enterprises"
+789,"SME Records"
+790,"AQUA ARIS"
+791,"Slow Curve"
+792,"voque ting"
+793,"Okuroto Noboru"
+794,AOMG
+795,MAGNET
+796,"Nice Boat Animation"
+797,"Beijing IMMG"
+798,"BOMB! CUTE! BOMB!"
+799,"Ichigo Animation"
+800,STORY
+801,"Studio Eromatick"
+802,A-Line
+803,"CA-Cygames Anime Fund"
+804,"LIDENFILMS Osaka Studio"
+805,dwarf
+806,"Nippon Animation"
+807,"Muse Communication"
+808,"Shanghai Animation Film Studio"
+809,Kaibutsu
+810,"Sakura Motion Picture"
+811,"Bushiroad Music"
+812,"Bandai Namco Arts"
+813,"Sakura Color Film"
+814,it's
+815,A-Sketch
+816,"Konami Digital Entertainment"
+817,"syn Sophia"
+818,"Toyo Recording"
+819,"Front Wing"
+820,ChiChinoya
+821,NewGin
+822,Nur
+823,"SoftBank Creative"
+824,"Genie Music"
+825,NetEase
+826,Liverpool
+827,"Asura Film"
+828,"Tomoyasu Murata Company"
+829,"Sola Entertainment"
+830,Marubeni
+831,"Stella Promotion"
+832,"Shinano Kikaku"
+833,"Tower Records"
+834,"Sovat Theater"
+835,monofilmo
+836,BIGLOBE
+837,"Diwphalanx Records"
+838,"UM Productions"
+839,"Production Reed"
+840,"Bit Promotion"
+841,"Studio Moriken"
+842,"JTB Next Creation"
+843,"Studio NOIX"
+844,"Kanade Creative"
+845,"Tama Production"
+846,Fenz
+847,"Nihon Hoso Eigasha"
+848,CEKAI
+849,"Tsuchida Productions"
+850,"Alpha Animation"
+851,"Amuse Pictures"
+852,Vanikey
+853,"KMMJ Studios"
+854,Happinet
+855,"Trick Block"
+856,"Bit grooove promotion"
+857,"P Productions"
+858,Nobel
+859,"Hoods Entertainment"
+860,"CHANCE iN"
+861,"On The Run"
+862,YTV
+863,"Liber Entertainment"
+864,"SBS TV Production"
+865,"Cover Corp"
+866,"Palm Studio"
+867,"Dentsu Tec"
+868,CyberAgent
+869,"Tokyo FM Broadcasting"
+870,"Studio Egg"
+871,"IMAGICA Lab."
+872,Anpro
+873,Suiseisha
+874,Celsys
+875,"GARDEN LODGE"
+876,"Bandai Spirits"
+877,"ACC Production"
+878,TAP
+879,AniMan
+880,"Nozomi Entertainment"
+881,"Hobby Japan"
+882,"Studio Deen"
+883,"Mad Box"
+884,I-move
+885,"Mary Jane"
+886,"Film Workshop"
+887,"King Records"
+888,"Critical Mass Video"
+889,"Nichiei Agency"
+890,Rikuentai
+891,Allure
+892,"Sony Interactive Entertainment"
+893,Funimation
+894,"Studio G-1Neo"
+895,AnimEigo
+896,"Office AO"
+897,DiomedÃ©a
+898,"Aikikaku Center"
+899,Katsudou-manga-kan
+900,"Toshiba Digital Frontiers"
+901,Rironsha
+902,L.
+903,"Sol Blade"
+904,"Studio Kuma"
+905,"TV Aichi"
+906,famima.com
+907,Medicrie
+908,"SIDO LIMITED"
+909,"Kadokawa Contents Gate"
+910,"StudioRF Inc."
+911,Heiwa
+912,"Jinnis Animation Studios"
+913,"ZOOM ENTERPRISE"
+914,ILCA
+915,"Bliss Pictures"
+916,K-Factory
+917,chara-ani.com
+918,RTHK
+919,Inc.
+920,"Studio AWAKE"
+921,"Hakuhodo DY Media Partners"
+922,"Postgal Workshop"
+923,Ltd.
+924,Maikaze
+925,"Venus Vangard"
+926,"Beijing Sunchime Happy Culture Company"
+927,"Universal Pictures Japan"
+928,"CCTV Animation"
+929,"Zero-G Room"
+930,"Calf Studio"
+931,Idol
+932,"Mistral Japan"
+933,"Kyoraku Industrial Holdings"
+934,"Beijing Sharaku Art"
+935,"Hiro Media"
+936,"Studio Unicorn"
+937,"Sakura Create"
+938,Futabasha
+939,"DOGA Productions"
+940,"Good Smile Company"
+941,Asread
+942,Arquebuse
+943,"4Kids Entertainment"
+944,"Beat Frog"
+945,"C & I entertainment"
+946,Planet
+947,"Fujio Production"
+948,"Milestone Music Publishing"
+949,"Ministry of the Navy"
+950,Epicross
+951,"TV Setouchi"
+952,Azumaker
+953,"Saban Entertainment"
+954,"Studio Ten Carat"
+955,"Sanyo Bussan"
+956,"Miracle Robo"
+957,Kobunsha
+958,"Mippei Eigeki Kiryuukan"
+959,Code
+960,Asgard
+961,"Beijing Enlight Pictures"
+962,"Studio OX"
+963,Lapis
+964,PrimeTime
+965,"Marui Group"
+966,"Opera House"
+967,"Anime Antenna Iinkai"
+968,ING
+969,D.A.S.T.
+970,Drecom
+971,"The Berich"
+972,Kinyosha
+973,"Studio Deva Loka"
+974,Moonbell
+975,"AIC ASTA"
+976,"Moonstone Cherry"
+977,VV-ALKLINE
+978,CinePix
+979,"Digital Frontier"
+980,Pencil
+981,"Studio MWP"
+982,"G holdings"
+983,"Media Blasters"
+984,"Sony Music Communications"
+985,"Aoni Entertainment"
+986,"Shinwon Productions"
+987,"Yomiuri Shimbun"
+988,TCJ
+989,feng
+990,Rakuten
+991,"indigo line"
+992,USEN
+993,OLM
+994,"Yostar Pictures"
+995,"Innocent Grey"
+996,Bushiroad
+997,"Casio Entertainment"
+998,"Video Market"
+999,ElectromagneticWave
+1000,"TOMY Company"
+1001,Cammot
+1002,"Avex Technologies"
+1003,Jumondo
+1004,Cospa
+1005,"INCS toenter"
+1006,"Mainichi Shimbun"
+1007,"Higa Brothers Production"
+1008,I.Toon
+1009,"Studio Kai"
+1010,"N&G Production"
+1011,"Purple Cow Studio Japan"
+1012,G-mode
+1013,HORNETS
+1014,Epoch
+1015,"Strawberry Meets Pictures"
+1016,"Misseri Studio"
+1017,AbemaTV
+1018,"Knack Animation"
+1019,"TYO Animations"
+1020,"Studio Dadashow"
+1021,Eswood
+1022,ADK
+1023,"Azeta Pictures"
+1024,BreakBottle
+1025,"Studio Gram"
+1026,Anima&Co.
+1027,Crossphere
+1028,"Dentsu Razorfish"
+1029,YUKE'S
+1030,"Saban Brands"
+1031,"Studio Mir"
+1032,"Marvelous AQL"
+1033,Seven
+1034,"U/M/A/A Inc."
+1035,"Graduate School of Film Producing"
+1036,"Image Kei"
+1037,AG-ONE
+1038,"MK Pictures"
+1039,"Chrono Gear Creative"
+1040,"Mag Garden"
+1041,"12 Diary Holders"
+1042,"Studio Saki Makura"
+1043,"Queen Bee"
+1044,"Ishimori Pro"
+1045,"Baku Enterprise"
+1046,Arplants
+1047,"Myung Films"
+1048,"The Answer Studio"
+1049,"Media Do"
+1050,"Toy's Factory"
+1051,TSUTAYA
+1052,"Rabbit Gate"
+1053,"Trans Cosmos"
+1054,"Warner Bros. Japan"
+1055,"Advance Syakujii"
+1056,"BS Japan"
+1057,"Earth Star Entertainment"
+1058,"Kadokawa Media (Taiwan)"
+1059,Index
+1060,Pastel
+1061,"Sun TV"
+1062,"Sony Pictures Worldwide Acquisitions"
+1063,"Wargaming Japan"
+1064,Marone
+1065,MAGES.
+1066,"Production Ace"
+1067,"Ryukyu Asahi Broadcasting"
+1068,Po10tial
+1069,"Orchid Seed"
+1070,"Nelke Planning"
+1071,"Kinoshita Koumuten"
+1072,"NHN PlayArt"
+1073,WField
+1074,"Animation 21"
+1075,"Bandai Channel"
+1076,"Romantica club !!"
+1077,"LINE Corporation"
+1078,"Maxell E-Cube"
+1079,"Fujimi Shobo"
+1080,Toranoana
+1081,"Animatsu Entertainment"
+1082,Gzbrain
+1083,"BS Fuji"
+1084,"Studio Blanc"
+1085,"Aeon Entertainment"
+1086,RAY
+1087,"Studio 1st"
+1088,"Project No.9"
+1089,"Deho Gallery"
+1090,Hotline
+1091,"Amber Film Works"
+1092,"Kenji Studio"
+1093,U-NEXT
+1094,Nomad
+1095,"Tohan Corporation"
+1096,"Marza Animation Planet"
+1097,ZERO-A
+1098,LinkedBrain
+1099,"Brave Hearts"
+1100,DLE
+1101,"Royal Limousine"
+1102,"Carp Studio"
+1103,"BS NTV"
+1104,"Iwatobi High School Swimming Club"
+1105,"Studio Carbuncle"
+1106,Shimogumi
+1107,Baramiri
+1108,GRANTdesign
+1109,"Wit Studio"
+1110,"Studio Liberty"
+1111,"ADK Emotions"
+1112,"Studio Sign"
+1113,Mixer
+1114,"Lune Pictures"
+1115,Coamix
+1116,"Sony Music Solutions"
+1117,"Oh! Production"
+1118,"Hero Communication"
+1119,"Buzz Wave"
+1120,"Solid Vox"
+1121,"Kiyosumi High School Mahjong Club"
+1122,"Kinoshita Group Holdings"
+1123,"Studio elle"
+1124,NOTTV
+1125,Pashmina
+1126,Ashisuto
+1127,Nichion
+1128,"Vasoon Animation"
+1129,"Production GoodBook"
+1130,"Geidai Animation"
+1131,"Plus One"
+1132,"Tsubasa Entertainment"
+1133,Hawkeye
+1134,"Tokyo Animation Film"
+1135,"ASIA Documentary Productions"
+1136,CyberStep
+1137,Tose
+1138,BeeWorks
+1139,"Studio Zealot"
+1140,Milkshake
+1141,"Ima Group"
+1142,AYCO
+1143,"Ai Addiction"
+1144,"Cocoro Free"
+1145,AKABEiSOFT2
+1146,"Studio CHANT"
+1147,PoPoCo
+1148,"Magic Lantern Film"
+1149,"1st PLACE"
+1150,teamKG
+1151,SANZIGEN
+1152,Ankama
+1153,"DandeLion Animation Studio"
+1154,"Digital Media Lab"
+1155,"Bandai Namco Live Creative"
+1156,Anima
+1157,"Tablier Communications"
+1158,"Yoshimoto Creative Agency"
+1159,"Otogi Production"
+1160,Fujishouji
+1161,Hobibox
+1162,"Y&N Brothers"
+1163,"Studio LAN"
+1164,Poncotan
+1165,"Dentsu Eigasha Tokyo"
+1166,"Artist Management Office"
+1167,"Seta Corporation"
+1168,"Dynamo Pictures"
+1169,"Studio Shamrock"
+1170,"Studio Kaab"
+1171,"Age Global Networks"
+1172,GREE
+1173,"Kate Arrow"
+1174,"HOBBY BASE Yellow Submarine"
+1175,NAZ
+1176,"Assez Finaud Fabric"
+1177,"Hochi Shimbun"
+1178,Q-Tec
+1179,D-techno
+1180,"Bandai Namco Pictures"
+1181,"Contents Seed"
+1182,"arma bianca"
+1183,"Zack Promotion"
+1184,Tapioca
+1185,"project lights"
+1186,"Chuubu Nihon Kyouei"
+1187,KDDI
+1188,"Pierrot Plus"
+1189,Mirai-Kojo
+1190,RightTracks
+1191,Akabanten
+1192,"Voyager Entertainment"
+1193,CREi
+1194,"Benesse Corporation"
+1195,QREAZY
+1196,"Lawson HMV Entertainment"
+1197,"Studio Compile"
+1198,Sammy
+1199,"Top-Insight International"
+1200,"Hikari TV"
+1201,"Koei Tecmo Games"
+1202,"Mirai Film"
+1203,"Kamikaze Douga"
+1204,Angelfish
+1205,SPEED
+1206,Daiko
+1207,"Hoso Seisaku Doga"
+1208,"Kyodo Eiga"
+1209,"Studio Zero"
+1210,"T.O Entertainment"
+1211,i0+
+1212,"Himeyuri Alumnae Incorporated Foundation"
+1213,"TriF Studio"
+1214,"Universal Radio Studio"
+1215,"Kanetsu Investment"
+1216,Heroz
+1217,"Pb Animation Co. Ltd."
+1218,"ZIZ Entertainment (ZIZ)"
+1219,Presidio
+1220,"TV Saitama"
+1221,"Exa International"
+1222,"Neft Film"
+1223,"Ultra Super Pictures"
+1224,"Highlights Entertainment"
+1225,"Creek & River"
+1226,"Studio Kelmadick"
+1227,Quaras
+1228,"Kadokawa Daiei Studio"
+1229,"Warner Music Japan"
+1230,Shinshokan
+1231,Kyotoma
+1232,"Dream Creation"
+1233,"Kyowa Film"
+1234,"Dear Stage inc."
+1235,"Studio Lotus"
+1236,Melonbooks
+1237,"Steve N' Steven"
+1238,Shinchosha
+1239,Overlap
+1240,"I'm Enterprise"
+1241,"Tosho Printing"
+1242,"NBCUniversal Entertainment Japan"
+1243,"Gold Bear"
+1244,Aquamarine
+1245,Khara
+1246,"UK.PROJECT INC."
+1247,"Supa Love"
+1248,"Sega Interactive"
+1249,"Fan Company"
+1250,Gamegate
+1251,FuRyu
+1252,MMDGP
+1253,"Chugai Mining"
+1254,Pia
+1255,Cosmos
+1256,Tavac
+1257,"Bandai Namco Games"
+1258,"Tokyo Animator Gakuin"
+1259,"Jay Zone Comic"
+1260,Lambert
+1261,DMM.futureworks
+1262,"Hayakawa Shobou"
+1263,"Gendai Production"
+1264,"Warner Bros. Pictures"
+1265,"DIVE II Entertainment"
+1266,"Hiroshi Planning"
+1267,BS11
+1268,"Twin Engine"
+1269,DeNA
+1270,NIANTIC
+1271,"Chiba TV"
+1272,"Cinema Tohoku"
+1273,"SILVER LINK."
+1274,"Sapporo Television Broadcasting"
+1275,"Studio Cab"
+1276,"Kadokawa Media House"
+1277,"Sanrio Digital"
+1278,"GOON TRAX"
+1279,"King Bee"
+1280,"Pie in the sky"
+1281,entama
+1282,"Nikkatsu Mukojima"
+1283,"TO Books"
+1284,GYAO!
+1285,"Barnum Studio"
+1286,"Japan Volleyball Association"
+1287,"Olive Studio"
+1288,"Keisei Electric Railway"
+1289,"Studio PuYUKAI"
+1290,"TEAM Entertainment Inc."
+1291,"Miyagi Television Broadcasting"
+1292,"Dentsu Meitetsu Communications"
+1293,Parco
+1294,"Shizuoka Daiichi Television"
+1295,"Show Corporation"
+1296,"White Fox"
+1297,e-notion
+1298,"Space Shower Music"
+1299,"Fukuoka Broadcasting System"
+1300,"Virgin Babylon Records"
+1301,"White Bear"
+1302,"KEN ON"
+1303,"Tokyo MX"
+1304,"Culture Entertainment"
+1305,"LandQ studios"
+1306,Grooove
