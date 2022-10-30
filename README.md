@@ -121,7 +121,7 @@ ALTER TABLE average_score
 MODIFY anime_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
 ```
 
-##### Next, the genres. I used UNION ALL and UNION to create two tables for genres; I would recycle this query for upcoming tables. Most anime shows/movies fit under multiple generes and if I were to select the anime_id and the genres as it is, it would display each id in a row with 13 columns. What I want is two columns where each id and genre is it's own unique row. Basically, the idea behind UNION ALL was to unpivot the table. Even though there appears to be duplicates when looking at the anime_id column, it is still unique when the anime_id and genre are combined, which create composite keys. In the second table, I used UNION to capture each type of genre and added a genre_id to be the Primary Key.
+##### Next, the genres. I used UNION ALL and UNION to create two tables for genres; I would recycle this query for upcoming tables. Most anime shows/movies fit under multiple generes and if I were to select the anime_id and the genres as it is, it would display each id in a row with 13 columns. What I want is two columns where each id and genre is it's own unique row. Basically, the idea behind UNION ALL was to unpivot the table. Even though there appears to be duplicates when looking at the anime_id column, it is still unique when the anime_id and genre are combined, which create composite keys. In the second table, I used UNION to capture each type of genre and added a genre_id to be the Primary Key. UNION ALL allows duplicates and UNION keeps the distinct values.
 ```sql
 CREATE TABLE genre_list
 (SELECT anime_id, genres_0 AS genre FROM anime_cleaned WHERE genres_0 IS NOT NULL
